@@ -21,25 +21,37 @@ Follow these instructions to get a copy of the project up and running on your lo
    cd client
    ```
 
-3. Start the react server:
+3. Intall the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the react server:
 
    ```bash
    npm start
    ```
 
-4. Head over to the Backend:
+5. Head over to the Backend:
 
    ```bash
    cd chat-server
    ```
 
-5. Start the backend server:
+6. Intall the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+7. Start the backend server:
 
    ```bash
    npm start
    ```
 
-6. Access the application:
+8. Access the application:
 
    - React App: Open your browser and go to http://localhost:3000
 
