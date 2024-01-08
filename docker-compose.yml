@@ -3,7 +3,7 @@ version: '3'
 services:
   frontend:
     build: ./client
-    container_name: react-ui
+    container_name: chat-ui
     ports:
       - "3000:4000"
     stdin_open: true
