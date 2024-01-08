@@ -1,1 +1,1 @@
-export const CHAT_SERVER_URL = 'http://3.90.218.168:6000/'
+export const CHAT_SERVER_URL = 'http://localhost:5000'
