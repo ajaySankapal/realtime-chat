@@ -2,7 +2,7 @@ version: '3'
 
 services:
   frontend:
-    build: ./frontend
+    build: ./client
     container_name: react-ui
     ports:
       - "3000:4000"
@@ -14,7 +14,7 @@ services:
       - chat-network
 
   backend:
-    build: ./backend
+    build: ./chat-server
     container_name: chat-server
     ports:
       - "6000:6000"
