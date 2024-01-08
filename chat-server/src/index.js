@@ -36,7 +36,6 @@ io.on("connection", (socket) => {
     });
     socket.on("sendMessage", (message) => {
         const user = getUser(socket.id);
-        console.log(user, 'USER IN THE SEND MESSAGE FUNCTION')
         io.to(user.deliveryDate).emit("message", generateMessage(user.customerName, message, user.deliveryDate));
     });
 
