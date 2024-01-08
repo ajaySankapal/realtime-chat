@@ -5,7 +5,7 @@ services:
     build: ./client
     container_name: chat-ui
     ports:
-      - "3000:4000"
+      - "4000:4000"
     stdin_open: true
     tty: true
     depends_on:
